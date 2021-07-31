@@ -43,6 +43,7 @@ section:nth-child(odd){
 
 .heading{
     text-align: center;
+    padding:0 1 5px;
     padding-bottom: 5px;
     color: var(--black);
     font-size:30px; 
@@ -137,14 +138,16 @@ header .nav a:hover{
 .prevent .box img{
     color: var(--black);
     font-size:20px;
+    height: 180px;
 }
 
 .prevent .box h3{
     color: var(--black);
     font-size: 20px;
+    padding-top: 5px;
 }
 
-.prevent .box h3{
+.prevent .box p{
     color: var(--black);
     font-size: 14px;
 } 
@@ -209,6 +212,93 @@ header .nav a:hover{
 }
 
 
+
+/* contact section */
+.contact form{
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+}
+
+.contact form .box,
+.contact form textarea{
+    background: #f8f8fe;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 10px;
+    margin: 7px 0;
+    width: 100%;
+    text-transform: none;
+    color: var(--black);
+}
+
+.contact form textarea{
+    resize: none;
+    height: 200px;
+}
+
+.contact .map{
+    border-radius:5px;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+/* blogs section */
+
+.blogs .box{
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    background: #fff;
+}
+
+.blogs .box .image{
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #f8f8fe;
+}
+
+.blogs .box .image img{
+    transition: .2s linear;
+}
+
+.blogs .box:hover .image img{
+    transform: scale(1.1);
+}
+
+.blogs .box .content{
+    padding: 5px 0;
+    font-size: 20px;
+    color: var(--black);
+}
+
+.blogs .box .content .icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.blogs .box .content .icons a{
+    color: #777;
+    font-size: 13px;
+}
+
+.blogs .box .content .icons a i{
+    padding-right: 7px;
+}
+
+.blogs .box .content .icons a:hover{
+    color: var(--main-color);
+}
 
 
 
