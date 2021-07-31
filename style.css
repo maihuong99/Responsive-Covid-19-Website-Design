@@ -41,6 +41,17 @@ section:nth-child(odd){
     background:var(--black);
 }
 
+.heading{
+    text-align: center;
+    padding-bottom: 5px;
+    color: var(--black);
+    font-size:30px; 
+}
+
+.heading span{
+    color: var(--main-color);
+}
+
 
 
 /* header section */
@@ -99,6 +110,112 @@ header .nav a:hover{
     font-size: 50px;
     font-weight: bolder;
 }
+
+
+
+
+/* about section */
+.about .content h3{
+    color: var(--black);
+    font-size: 33px
+}
+
+.about .content p{
+    color: #777;
+    font-size: 14px
+}
+
+
+/* prevent section */
+.prevent .box{
+    flex: 1 1 300px;
+    background: #f8f8fe;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.prevent .box img{
+    color: var(--black);
+    font-size:20px;
+}
+
+.prevent .box h3{
+    color: var(--black);
+    font-size: 20px;
+}
+
+.prevent .box h3{
+    color: var(--black);
+    font-size: 14px;
+} 
+
+
+
+
+/* experts section */
+.experts .box{
+    width: 260px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.experts .box img{
+    background: #f8f8fe;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.experts .box h3{
+    font-size: 22px;
+    margin: 2px 0;
+    color: var(--black);
+}
+
+.experts .box span{
+    font-size:15px;
+    color: var(--main-color);
+}
+
+.experts .box .share{
+    position: absolute;
+    top: 5px; right: -50px;
+    transition: .2s;
+}
+
+.experts .box:hover .share{
+    right: 15px;
+}
+
+.experts .box .share a{
+    border-radius: 5px;
+    background: var(--main-color);
+    color: #fff;
+    display: block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    margin-top: 5px;
+}
+
+.experts .box .share a:hover{
+    background: var(--black);
+}
+
+
+
+
+
+
+
+
+
 
 
 
